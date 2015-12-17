@@ -25,7 +25,6 @@ class HomePage {
     public function render($overrideData=array())
     {
         $this->curry($overrideData);
-        echo var_dump( $f=(object)$this->data);
         return $this->template->output((object)$this->data)->body;
     }
 }
