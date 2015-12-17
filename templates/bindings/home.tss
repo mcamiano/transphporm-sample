@@ -1,7 +1,11 @@
 title {content: data(pagetitle)}
+nav ul li {repeat: data(navigation);}
+nav ul li > a {content: iteration(label);}
+nav ul li a:attr(href) {content: iteration(url); }
 article h1 {content: data(title)}
 article h2 {content: data(subtitle)}
 article ul li {repeat: data(fruits); content: iteration(name);}
-article ul li:attr(class):iteration[name="Apple"] { content: 'special-fruit'; }
-
-
+article ul li:attr(class):iteration[name="Hillary"] { content: 'toxic-fruit'; }
+article ul li:attr(class):iteration[name="Trump"] { content: 'obnoxious-fruit'; }
+article ul li:attr(class):iteration[name="Bernie"] { content: 'disturbed-fruit'; }
+article ul li:attr(class):iteration[name="Paul"] { content: 'ignored-fruit'; }

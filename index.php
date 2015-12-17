@@ -30,10 +30,22 @@ class HomePage {
 }
 
 $data = array(
-    'pagetitle' => "Awesome Page",
-    'title'     => "Article Title",
-    'subtitle'  => "By Zack",
-    'fruits'    => [ (object)['name'=>'Apple'], (object)['name'=>'Pear'] ]
+    'pagetitle' => "Most Awesome Page",
+    'title'     => "Most Excellent Article",
+    'subtitle'  => "By Mitch",
+    'fruits'    => [
+        (object)['name'=>'Hillary'], 
+        (object)['name'=>'Bernie'], 
+        (object)['name'=>'Trump'],
+        (object)['name'=>'Paul'] 
+    ],
+    'navigation' => [
+        (object)['label' => 'Home'], (object)['url' => '#'],
+        (object)['label' => 'News'], (object)['url' => '#'],
+        (object)['label' => 'Favorites'], (object)['url' => '#'],
+        (object)['label' => 'About Us'], (object)['url' => '#'],
+        (object)['label' => 'Why?'], (object)['url' => '#']
+    ],
 ); 
 
 // Roadblock: how to express that pages/home.xml ISA or uses simplePage.xhtml ?
