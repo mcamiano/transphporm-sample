@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        
+        <title>HTML5 TEMPLATE</title>
+
+        <style>
+            body { padding: 20px; font-size:1em; }
+            header nav { background-color:#ACEAD0; padding:15px 10px; }
+            header nav ul { padding:0; }
+            header nav li { display:inline; list-style:none; margin-right:15px; }
+            header nav a { text-decoration:none; }
+            article header h1 { margin-bottom:4px; color:#34769E; font-size:2em; }
+            article header h2 { margin:0; font-size: .8em; color:#555; }
+            article p { font-family:Arial, sans; color:#444; line-height:1.4em; }
+            footer { background-color: #444; padding:10px; }
+            footer p { color:#E2E2E2; }
+            .special-fruit { text-decoration: underline; font-weight: bold; }
+        </style>
+
+    </head>
+  
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">The Goods</a></li>
+                    <li><a href="#">Favorites</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <article>
+                <header>
+                    <h1>Page Title</h1>
+                    <h2>By Jehoshaphat on Jan 1, 2015</h2>
+                </header>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptas deserunt in quam itaque consequatur at recusandae, veritatis placeat porro cum magni eos iure vero, obcaecati est molestiae quos enim.</p>
+
+                <p data-p="yes">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sed asperiores cum explicabo praesentium, mollitia possimus nam. Aperiam autem doloribus hic. Ex quae quia fugiat, fugit eaque quam adipisci nemo.</p>
+                
+                <ul>
+                  <li>A list item 1</li>
+                </ul>
+            </article>
+        </main>
+            
+        <footer>
+            <p>footer stuff</p>
+        </footer>
+
+    </body>
+</html>

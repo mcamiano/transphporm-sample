@@ -1,0 +1,7 @@
+title {content: data(pagetitle)}
+article h1 {content: data(title)}
+article h2 {content: data(subtitle)}
+article ul li {repeat: data(fruits); content: iteration(name)}
+article ul li:attr(class):iteration[name="Apple"] { content: 'special-fruit'; }
+
+
