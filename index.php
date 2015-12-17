@@ -36,8 +36,9 @@ $data = array(
     'fruits'    => [ (object)['name'=>'Apple'], (object)['name'=>'Pear'] ]
 ); 
 
-$page = 'templates/home.xml';
-$tss = 'templates/home.tss';
+// Roadblock: how to express that pages/home.xml ISA or uses simplePage.xhtml ?
+$page = 'templates/layouts/simplePage.xhtml';
+$tss = 'templates/bindings/home.tss';
 
 $template = new HomePage($page,$tss);
 $template->curry($data);
